@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Application.Abstactions;
 using Application.Posts.Command;
-using DataAccess;
-using DataAccess.Configurations;
-using DataAccess.Repositories;
+using Infrastructure;
+using Infrastructure.Configurations;
+using Infrastructure.Repositories;
 using MediatR;
 using MinimalApi.Abstractions;
 

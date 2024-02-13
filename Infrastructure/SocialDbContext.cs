@@ -1,9 +1,9 @@
 using Domain.Models;
 using MongoDB.Driver;
-using DataAccess.Configurations;
+using Infrastructure.Configurations;
 using Microsoft.Extensions.Options;
 
-namespace DataAccess
+namespace Infrastructure
 {
     public class SocialDbContext
     {

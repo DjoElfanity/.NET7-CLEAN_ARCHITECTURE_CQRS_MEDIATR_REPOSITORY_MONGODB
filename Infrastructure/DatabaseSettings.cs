@@ -1,4 +1,4 @@
-namespace DataAccess.Configurations
+namespace Infrastructure.Configurations
 {
     public class MongoDbSettings
     {

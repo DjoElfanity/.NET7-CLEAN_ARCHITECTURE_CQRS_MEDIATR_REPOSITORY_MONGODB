@@ -5,7 +5,7 @@ using Application.Abstactions;
 using Domain.Models;
 using MongoDB.Driver;
 
-namespace DataAccess.Repositories
+namespace Infrastructure.Repositories
 {
     public class PostRepository : IPostRepository
     {

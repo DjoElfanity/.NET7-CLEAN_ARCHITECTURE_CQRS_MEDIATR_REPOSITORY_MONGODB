@@ -1,7 +1,7 @@
 using Application.Abstactions;
-using DataAccess;
-using DataAccess.Configurations;
-using DataAccess.Repositories;
+using Infrastructure;
+using Infrastructure.Configurations;
+using Infrastructure.Repositories;
 using MongoDB.Driver;
 using MediatR;
 using Application.Posts.Command;
