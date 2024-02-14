@@ -27,7 +27,8 @@ namespace MinimalApi.Extensions
 
 
             builder.Services.AddSingleton<SocialDbContext>();
-            builder.Services.AddMediatR(typeof(CreatePost));
+            //builder.Services.AddMediatR(typeof(CreatePost));
+            builder.Services.AddMediatR(AppDomain.CurrentDomain.GetAssemblies());
 
 
 
